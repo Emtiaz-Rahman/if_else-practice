@@ -19,3 +19,13 @@ else {
     console.log('Grade:F');
 }
 
+var signal = 'red';
+if (signal == 'yellow') {
+    console.log('You must stop');
+}
+else if (signal == 'green') {
+    console.log('You can cross the road');
+}
+else {
+    console.log('You fall in denger');
+}
