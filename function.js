@@ -43,3 +43,14 @@ var pen = 300;
 var note = 60;
 var totalPrice = totalCost(book, pen, note);
 console.log('Total Cost=', totalPrice + 'taka');
+
+
+function inputNumber(number) {
+    var number = number ** 2;
+    return number;
+}
+var value = 6;
+var result = inputNumber(value);
+console.log('Output=', result);
+
+
